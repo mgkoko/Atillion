@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Atillion.Framework Class Library",
+  "authors": [ "koko_000" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Collections": "4.0.10-beta-23019",
+    "System.Linq": "4.0.0-beta-23019",
+    "System.Threading": "4.0.10-beta-23019",
+    "System.Runtime": "4.0.20-beta-23019",
+    "Microsoft.CSharp": "4.0.0-beta-23019",
+    "EntityFramework.SqlServer": "7.0.0-beta6",
+    "EntityFramework.Commands": "7.0.0-beta6",
+    "EntityFramework.Relational": "7.0.0-beta6",
+    "Microsoft.AspNet.Mvc": "6.0.0-beta6"
+  },
+
+  "commands": {
+    "ef": "EntityFramework.Commands"
+  },
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}

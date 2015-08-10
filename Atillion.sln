@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13674997-022E-475D-877F-66CCFAC23B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E79AF88-F9E7-4CDE-BCF7-521FFD02F296}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Atillion.Framework", "src\Atillion.Framework\Atillion.Framework.xproj", "{F73140CC-19C6-403F-8545-154221586731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{2C37E9B6-7FE2-4A80-9C3C-D506D7A74AE7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Atillion.Modules.Email", "src\Atillion.Modules.Email\Atillion.Modules.Email.xproj", "{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Atillion", "src\Atillion\Atillion.xproj", "{64C518A9-A89E-4D13-B3F6-B096B2CB477C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F73140CC-19C6-403F-8545-154221586731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73140CC-19C6-403F-8545-154221586731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73140CC-19C6-403F-8545-154221586731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73140CC-19C6-403F-8545-154221586731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C518A9-A89E-4D13-B3F6-B096B2CB477C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C518A9-A89E-4D13-B3F6-B096B2CB477C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C518A9-A89E-4D13-B3F6-B096B2CB477C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C518A9-A89E-4D13-B3F6-B096B2CB477C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F73140CC-19C6-403F-8545-154221586731} = {13674997-022E-475D-877F-66CCFAC23B30}
+		{2C37E9B6-7FE2-4A80-9C3C-D506D7A74AE7} = {13674997-022E-475D-877F-66CCFAC23B30}
+		{99690D7F-6974-4A7B-8DAA-2D7C15D1CB42} = {2C37E9B6-7FE2-4A80-9C3C-D506D7A74AE7}
+		{64C518A9-A89E-4D13-B3F6-B096B2CB477C} = {13674997-022E-475D-877F-66CCFAC23B30}
+	EndGlobalSection
+EndGlobal
