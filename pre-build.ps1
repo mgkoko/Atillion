@@ -21,7 +21,7 @@ else
 & $env:USERPROFILE\.dnx\bin\dnvm install $dnxVersion -Persistent
 
  # run DNU restore on all project.json files in the src folder including 2>1 to redirect stderr to stdout for badly behaved tools
--Path $PSScriptRoot\src\Atillion.Framework { 
+Get-ChildItem -Path $PSScriptRoot\src -Filter *.xproj -Recurse | ForEach-Object { 
 	& dnu restore  $_.FullName 2>1 
 	& dnu pack  $_.FullName 2>1 
 }
